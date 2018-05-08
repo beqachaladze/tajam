@@ -41,7 +41,7 @@ input, textarea, button{
 	background-image: url(../img/header-background.png);
 }
 .header-background{
-	background-color: rgba(44,37,76, 80%);
+	background-color: rgba(44,37,76, 0.8);
 	height: 670px;
 	width: 100%;
 }
@@ -113,7 +113,7 @@ input, textarea, button{
     align-items: flex-end;
     position: fixed;
     padding: 5px 0;
-    background-color: rgba(44,37,76, 80%);
+    background-color: rgba(44,37,76, 0.8);
 }
 .burger{
 	display: none;
@@ -168,7 +168,7 @@ input, textarea, button{
 	background-image: url(../img/video-back.png);
 }
 .video-background{
-	background-color: rgba(44,37,76, 80%);
+	background-color: rgba(44,37,76, 0.8);
 	height: 550px;
 	width: 100%;
 }
@@ -262,7 +262,7 @@ input, textarea, button{
 	background-image: url(../img/team-back.png);
 }
 .team{
-	background-color: rgba(44,37,76, 80%);
+	background-color: rgba(44,37,76, 0.8);
 	height: 710px;
 	width: 100%;
 }
@@ -362,7 +362,7 @@ input, textarea, button{
 	background-image: url(../img/quoutes-back.png);
 }
 .quoete{
-	background-color: rgba(44,37,76, 80%);
+	background-color: rgba(44,37,76, 0.8);
 	height: 500px;
 	width: 100%;
 }
@@ -462,7 +462,7 @@ input, textarea, button{
 	background-image: url(../img/footer-back.png);
 }
 .footer-1{
-	background-color: rgba(44,37,76, 80%);
+	background-color: rgba(44,37,76, 0.8);
 	height: 400px
 }
 .footer .container{
