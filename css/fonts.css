@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'PlayfairDisplayBlack';
+    src: url('../fonts/PlayfairDisplayBlack.eot') format('embedded-opentype'),
+         url('../fonts/PlayfairDisplayBlack.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplayBlack.woff') format('woff'),
+         url('../fonts/PlayfairDisplayBlack.ttf') format('truetype'),
+         url('../fonts/PlayfairDisplayBlack.svg#PlayfairDisplayBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'HammersmithOneRegular';
+    src: url('../fonts/HammersmithOneRegular.eot') format('embedded-opentype'),
+         url('../fonts/HammersmithOneRegular.woff2') format('woff2'),
+         url('../fonts/HammersmithOneRegular.woff') format('woff'),
+         url('../fonts/HammersmithOneRegular.ttf') format('truetype'),
+         url('../fonts/HammersmithOneRegular.svg#HammersmithOneRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/RobotoThin.eot') format('embedded-opentype'),
+         url('../fonts/RobotoThin.woff2') format('woff2'),
+         url('../fonts/RobotoThin.woff') format('woff'),
+         url('../fonts/RobotoThin.ttf') format('truetype'),
+         url('../fonts/RobotoThin.svg#RobotoThin') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('../fonts/RobotoBlack.eot') format('embedded-opentype'),
+         url('../fonts/RobotoBlack.woff2') format('woff2'),
+         url('../fonts/RobotoBlack.woff') format('woff'),
+         url('../fonts/RobotoBlack.ttf') format('truetype'),
+         url('../fonts/RobotoBlack.svg#RobotoBlack') format('svg');
+}
+
+

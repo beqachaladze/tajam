@@ -1,0 +1,295 @@
+@media (max-width: 992px){
+	.our-story-text{
+		margin-left: 20px;
+	}
+	.our-story-p1, .our-story-p2{
+		width: auto;
+	}
+	.our-story-logo img{
+		width: 170px;
+		height: 170px;
+	}
+	.our-story .container{
+		padding: 50px 0;
+		align-items: center;
+	}
+	.team-position{
+		margin: 0 auto;
+	}
+	.teams, .team{
+		height: 1000px;
+	}
+	.team-row{
+		padding-bottom: 30px;
+	}
+	.team-members{
+		margin-bottom: 0;
+	}
+	.our-works{
+		height: 894px;
+	}
+	.our-works .btn{
+		margin-top: 45px;
+	}
+	.contact-left{
+		margin-right: 30px;
+	}
+	.form-group .input{
+	    width: 350px;
+	}
+	.footer, .footer-1{
+		height: 800px;
+	}
+	.footer-1 .container{
+		flex-direction: column;
+    	align-items: center;
+	}
+	.footer-left, .footer-center, .footer-right{
+		width: 330px;
+	}
+	.bottom-container{
+	    flex-direction: column;
+   		align-items: center;
+	}
+	.footer-bottom-right{
+		margin-top: 30px;
+	}
+	.footer-center-1{
+		justify-content: normal;
+	}
+	.footer-right{
+		margin-top: 30px;
+	}
+}
+
+
+
+@media (max-width: 767px){
+	.our-story{
+		height: 450px;
+	}
+	.expertise{
+		height: 900px;
+	}
+	.row-2{
+		border-right: 0;
+	}
+	.row-3{
+		border-right: 1px solid #ebebeb;
+	}
+	.row-4{
+		border-right: 0;
+		border-bottom: 1px solid #ebebeb;
+	}
+	.expertise-h1-text{
+		padding-top: 30px;
+	}
+	.our-works .container{
+		padding: 30px 0;
+	}
+	.our-works{
+		height: 1000px;
+	}
+	.our-works .btn{
+		margin-top: 35px;
+	}
+	.teams, .team{
+		height: 950px;
+	}
+	.form-group .input{
+		width: 250px;
+	}
+	.contact{
+		height: 670px;
+	}
+	.quoetes, .quoete{
+		height: 600px;
+	}
+	.burger{
+		display: flex;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		overflow: hidden;
+	}
+	.burger .divider{
+		width: 35px;
+		height: 2px;
+		background-color: #00e0d0;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		transition: transform .4s linear;
+	}
+	.burger.active .divider:nth-child(1){
+		transform: translate(-50%, -50%) rotate(-45deg);
+		top: 50%;
+	}
+	.burger.active .divider:nth-child(2){
+		right: -100%;
+		transform: inherit;
+		left: inherit;
+	}
+	.burger.active .divider:nth-child(3){
+		transform: translate(-50%, -50%) rotate(45deg);
+		top: 50%;
+	}
+	.burger .divider:nth-child(1){
+		top: 30%;
+	}
+	.burger .divider:nth-child(2){
+		top: 50%;
+	}
+	.burger .divider:nth-child(3){
+		top: 70%;
+	}
+	.navigation{
+		display: none;
+	}
+	.navigation.active{
+		display: flex;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(44,37,76, 90%);
+		top: 0;
+		left: 0;
+	}
+	.navigation-ul.active{
+		flex-direction: column;
+	    text-align: center;
+    	margin: 100px auto;
+	}
+	.navigation-a.active{
+		font-size: 35px;
+	}
+	.navigation, .navigation-ul, .navigation-a{
+		transition: 0.4s; 
+		transition-duration: .4s;
+	}
+	.logo-head{
+	    z-index: 100;
+	}
+	.navigation{
+		position: relative;
+    	animation: mymove 1s;
+	}
+	@keyframes mymove{
+    	from {left: -600px;}
+    	to {left: 0px;}
+	}
+}	
+
+
+
+@media (max-width: 575px){
+	.expertise{
+		height: 1550px;
+	}
+	.container{
+		width: auto;
+		padding: 0 15px;
+	}
+	.our-story-logo img{
+		width: 100px;
+		height: 110px;
+	}
+	.our-story .container{
+		flex-direction: column;
+		text-align: center;
+	}
+	.our-story{
+		height: 650px;
+	}
+	.our-story .btn{
+		margin: 35px auto;
+	}
+	.row-child{
+		border: none;
+	}
+	.teams, .team{
+		height: 1600px;
+	}
+	.our-works .container{
+		justify-content: space-around;
+	}
+	.our-works{
+		height: 1400px;
+	}
+	.form-group .input{
+		width: 150px;
+	}
+	.contact-left{
+		margin-left: 30px;
+	}
+	.client-img{
+		height: 100%;
+	}
+	
+}
+
+
+
+@media (max-width: 420px){
+	.contact-right{
+		display: none;
+	}
+	.form-group .input{
+		width: 100%;
+	}
+	.footer-1 .container{
+		text-align: center;
+	}
+	.footer-left, .footer-center, .footer-right{
+		width: 100%;
+	}
+	.footer-left-p{
+		width: auto;
+		height: auto;
+	}
+	.header-background .nav-bottom{
+		margin-top: 100px;
+	}
+}
+
+
+
+@media (max-width: 320px){
+	.header-background .nav-bottom{
+		margin-top: 50px;
+	}
+	.quoetes, .quoete{
+		height: 700px;
+	}
+	.footer, .footer-1{
+		height: 900px;
+	}
+}
+
+
+
+@media (max-width: 270px){
+	.teams, .team{
+		height: 1650px;
+	}
+}
+
+
+
+@media (max-width: 250px){
+	.footer, .footer-1{
+		height: 1000px;
+	}
+	.expertise{
+		height: 1700px;
+	}
+	.header-background .nav-bottom{
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+
